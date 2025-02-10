@@ -1,0 +1,22 @@
+[project]
+name = "feedback_models"
+version = "0.0.1"
+readme = "README.md"
+authors = [{ name = "David Calhas", email = "david.calhas@tecnico.ulisboa.pt" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["deep feedback models", "image segmentation", "deep learning", "learning", "machine learning", "computer vision"]
+requires-python = ">=3.10"
+dependencies = [
+	"torch==1.13.0",
+	"skimage==0.23.2",
+	"cv2==4.9.0",
+	"numpy==1.24.3",
+	"torchvision==0.14.0",
+	"PIL==10.2.0",
+	"segmentation_models_pytorch==0.1.3",
+]

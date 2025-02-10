@@ -1,0 +1,5 @@
+from feedback_segmentation.data.base import Dataset_
+
+from feedback_segmentation.data.circles import CirclesDataset
+from feedback_segmentation.data.polygons import PolygonsDataset, OneInMultiplePolygons
+from feedback_segmentation.data.shapes import ShapesDataset
