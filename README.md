@@ -1,4 +1,4 @@
-# Recurrent segmentation
+# Feedback segmentation
 
 This is the github repository referent to the paper [Feedback Emerges in Noisy and Few-Shot Environments](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
 
