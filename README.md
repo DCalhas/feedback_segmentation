@@ -1,6 +1,6 @@
-# Feedback segmentation
+# Feedback in Segmentation
 
-This is the github repository referent to the paper [Feedback Emerges in Noisy and Few-Shot Environments](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
+This is the github repository referent to the paper [Feedback Generalizes Better and Enhances Robustness](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
 
 
 ## Setup
