@@ -5,6 +5,10 @@ This is the github repository referent to the paper [Feedback Emerges in Noisy a
 
 ## Setup
 
+You can either install through pip as:
+```
+pip install git+https://github.com/DCalhas/feedback_segmentation.git
+```
 Run the config.sh script to create an environment with all the packages that are necessary:
 
 ```
