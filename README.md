@@ -9,7 +9,8 @@ You can either install through pip as:
 ```
 pip install git+https://github.com/DCalhas/feedback_segmentation.git
 ```
-Run the config.sh script to create an environment with all the packages that are necessary:
+
+You can also install everything manually and develop from this code. Run the config.sh script to create an environment with all the packages that are necessary:
 
 ```
 bash setup/config.sh <ENVNAME>
