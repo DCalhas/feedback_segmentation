@@ -6,13 +6,13 @@ This is the github repository referent to the paper [Feedback Generalizes Better
 ## Setup
 
 You can either install through pip as:
-```
+```bash
 pip install git+https://github.com/DCalhas/feedback_segmentation.git
 ```
 
 You can also install everything manually and develop from this code. Run the config.sh script to create an environment with all the packages that are necessary:
 
-```
+```bash
 bash setup/config.sh <ENVNAME>
 ```
 
@@ -31,7 +31,7 @@ This script setups an anaconda environment with the following requirements:
 ## How to use
 
 After installing the package either via pip or manually, you can start using the code. An example is:
-```
+```python
 import feedback_segmentation as fbs
 
 import torch
