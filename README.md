@@ -1,6 +1,6 @@
 # Feedback in Segmentation
 
-This is the github repository referent to the paper [Feedback Generalizes Better and Enhances Robustness](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
+This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
 
 
 ## Setup
@@ -90,7 +90,7 @@ with torch.no_grad():
 If you found this repository useful and used it in your research, please do not forget to cite it as:
 ```
 @article{calhas2025,
-  title={},
+  title={Deep Recurrence for Dynamical Segmentation Models},
   author={Calhas, David and Oliveira, Arlindo L},
   journal={arXiv preprint},
   year={2025}
