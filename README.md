@@ -1,6 +1,6 @@
 # Feedback in Segmentation
 
-This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://en.wikipedia.org/wiki/HTTP_404). If you're having trouble running the code, please open an issue.
+This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://arxiv.org/abs/2507.10143). If you're having trouble running the code, please open an issue.
 
 
 ## Setup
@@ -92,7 +92,7 @@ If you found this repository useful and used it in your research, please do not 
 @article{calhas2025,
   title={Deep Recurrence for Dynamical Segmentation Models},
   author={Calhas, David and Oliveira, Arlindo L},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2507.10143},
   year={2025}
 }
 ```
