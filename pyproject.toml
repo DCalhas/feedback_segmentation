@@ -12,7 +12,7 @@ classifiers = [
 keywords = ["deep feedback models", "image segmentation", "deep learning", "learning", "machine learning", "computer vision"]
 requires-python = ">=3.10"
 dependencies = [
-	"torch==2.0.0",
+	"torch==2.0.0+cu117",
 	"scikit-image==0.23.2",
 	"opencv-python==4.9.0.80",
 	"numpy==1.24.3",
