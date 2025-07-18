@@ -1,32 +1,32 @@
 # Feedback in Segmentation
 
-This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://arxiv.org/abs/2507.10143). If you're having trouble running the code, please open an issue.
-
+This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://arxiv.org/abs/2507.10143), which proposes feedback of high level layer representations to the input. This is done by concatenating this representation with the input, modifying the ```in_channels``` of your model, and regularizing the neural network activity to decay over time. If you're having trouble running the code, please open an issue.
 
 ## Setup
 
-You can either install through pip as:
+Please create an environment before using this code, because it requires specific versions of ```torch``` and ```torchvision```. This can be done with anaconda as:
+```bash
+conda create -n <envname> python=3.10
+conda activate <envname>
+```
+
+Install this package via pip:
 ```bash
 pip install git+https://github.com/DCalhas/feedback_segmentation.git
 ```
 
-You can also install everything manually and develop from this code. Run the config.sh script to create an environment with all the packages that are necessary:
-
-```bash
-bash setup/config.sh <ENVNAME>
-```
-
-This script setups an anaconda environment with the following requirements:
+Alternatively, if you want to manually install the requirements, please setup an environment with the following requirements:
 
 | Python package | Version |
 |:---------------|:-------:|
-| **torch**		 | 1.13.0+cu117|
+| **torch**		 | 2.1.0|
 | **skimage** 	 | 0.23.2 |
-| **cv2**		 | 4.9.0 |
-| **numpy**		 | 1.24.3 |
-| **torchvision**| 0.14.0+cu117 |
+| **cv2**		 | 4.9.0.80 |
+| **numpy**		 | 1.24.4 |
+| **torchvision**| 0.16.0 |
 | **PIL**		 | 10.2.0 |
-| **segmentation_models_pytorch** | 0.1.3 |
+| **segmentation_models_pytorch** | 0.2.0 |
+| **six** | 1.16.0 |
 
 ## How to use
 
