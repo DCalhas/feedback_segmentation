@@ -2,10 +2,10 @@
 
 This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://arxiv.org/abs/2507.10143), which proposes feedback of high level layer representations to the input. This is done by concatenating this representation with the input, modifying the ```in_channels``` of your model, and regularizing the neural network activity to decay over time. If you're having trouble running the code, please open an issue.
 
-Check in the figure below, how noise impacts a feedback model and a feedforward model.
+Check in the figure below, how noise impacts a feedback model (fb) and a feedforward model (ff). Feedback shows robustness across timesteps, especially at higher noise levels.
 ![feedback noise](./assets/noise.png)
 
-We also show that the model is stable.
+The figure below illustrates the temporal evolution of the strongest principal component (explains 90\% of variance) for the feedback model (across timesteps) and the feedforward model (single prediction). Feedback logits stabilize quickly, indicating convergence of internal state.
 ![stable model](./assets/stable.png)
 
 Please check the ```examples``` folder for python example scripts.
