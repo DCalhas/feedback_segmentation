@@ -2,6 +2,14 @@
 
 This is the github repository referent to the paper [Deep Recurrence for Dynamical Segmentation Models](https://arxiv.org/abs/2507.10143), which proposes feedback of high level layer representations to the input. This is done by concatenating this representation with the input, modifying the ```in_channels``` of your model, and regularizing the neural network activity to decay over time. If you're having trouble running the code, please open an issue.
 
+Check in the figure below, how noise impacts a feedback model and a feedforward model.
+![feedback noise](./assets/noise.png)
+
+We also show that the model is stable.
+![stable model](./assets/stable.png)
+
+Please check the ```examples``` folder for python example scripts.
+
 ## Setup
 
 Please create an environment before using this code, because it requires specific versions of ```torch``` and ```torchvision```. This can be done with anaconda as:
